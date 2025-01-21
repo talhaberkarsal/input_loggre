@@ -1,0 +1,7 @@
+from input_logger import InputLogger
+
+logger = InputLogger("log.txt")
+while True:
+    user_input = logger.get_input("Enter something: ")
+    print(f"You entered: {user_input}")
+#this is how to use
