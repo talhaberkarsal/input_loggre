@@ -1,4 +1,4 @@
-rom setuptools import setup, find_packages
+from setuptools import setup, find_packages
 
 setup(
     name="input_logger",  # Paket adı
@@ -6,7 +6,7 @@ setup(
     author="Talha",  # Paket sahibi
     author_email="talha.anything.info@gmail.com",  # E-posta adresi
     description="A simple library to capture and log user inputs from the console.",
-    long_description=open(""C:\Users\Talhaberkarslan\Desktop\input logger\README.md"").read(),  # Açıklama dosyası
+    long_description=open(r"C:\Users\Talhaberkarslan\Desktop\input logger\README.md").read(),  # Açıklama dosyası
     long_description_content_type="text/markdown",  # Açıklama dosyası formatı
     url="https://github.com/kullaniciadi/input_logger",  # Proje URL'si
     packages=find_packages(),  # Paketleri bulur
